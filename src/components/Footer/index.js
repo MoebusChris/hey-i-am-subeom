@@ -5,42 +5,40 @@ import facebook from "../../images/Facebook-logo.webp"
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="max-w-7xl mx-auto">
       <div>
-        <div className="mb-7">
-          <h2 className="flex justify-center font-brandon text-2xl md:text-4xl font-bold">
-            Let's connect
-          </h2>
-        </div>
-        <div className="font-brandon mb-7">
-          <div className="flex justify-center mb-6">
-            <h3 className="text-xl md:text-2xl">
-              I'm a nomadic Korean, moving from place to place, looking for
-              interesting and exciting stuff.
-            </h3>
-          </div>
-          <div className="flex justify-center">
-            <p>
-              A great way to reach out to me is to follow me on{" "}
-              <a href="#" className="text-blue-500">
-                Facebook
-              </a>{" "}
-              and
-              <a href="#" className="text-blue-500">
-                LinkedIn
-              </a>
-              .
-            </p>
-          </div>
+        <h2 className="text-center font-brandon text-2xl md:text-4xl font-bold">
+          Let's connect
+        </h2>
+      </div>
+      <div className="font-brandon mb-7">
+        <div className="flex justify-center mb-6">
+          <h3 className="text-xl md:text-2xl">
+            I'm a nomadic Korean, moving from place to place, looking for
+            interesting and exciting stuff.
+          </h3>
         </div>
         <div className="flex justify-center">
-          <Link href="#" className="w-24 mx-2">
-            <img src={facebook} alt="facebook logo" />
-          </Link>
-          <Link href="#" className="w-24 mx-2">
-            <img src={linkedin} alt="linkedin logo" />
-          </Link>
+          <p>
+            A great way to reach out to me is to follow me on{" "}
+            <a href="#" className="text-blue-500">
+              Facebook
+            </a>{" "}
+            and
+            <a href="#" className="text-blue-500">
+              LinkedIn
+            </a>
+            .
+          </p>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <Link href="#" className="w-24 mx-2">
+          <img src={facebook} alt="facebook logo" />
+        </Link>
+        <Link href="#" className="w-24 mx-2">
+          <img src={linkedin} alt="linkedin logo" />
+        </Link>
       </div>
     </footer>
   )

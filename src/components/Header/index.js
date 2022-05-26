@@ -29,7 +29,7 @@ const Header = () => {
   const bgImage = convertToBgImage(image)
 
   return (
-    <header className="py-4">
+    <header>
       <Nav />
 
       <BackgroundImage
@@ -42,12 +42,12 @@ const Header = () => {
         <div>
           <GatsbyImage image={image} alt={"hero-image.jpg"} />
         </div>
-        <div className="hero-content max-w-md space-y-4">
+        <div className="hero-content max-w-lg space-y-4">
           <div className="flex flex-col justify-center text-center">
-            <h4 className="text-xl md:text-2xl font-brandon italic py-4">
+            <h4 className="text-xl md:text-2xl lg:text-3xl font-brandon italic py-4">
               Hello, I'm
             </h4>
-            <h1 className="text-4xl md:text-5xl font-brandon uppercase font-semibold">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-brandon uppercase font-semibold">
               Subeom Jeong
             </h1>
           </div>
