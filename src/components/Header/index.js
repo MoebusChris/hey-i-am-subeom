@@ -17,8 +17,8 @@ const Header = () => {
         placeholderImage: file(relativePath: { eq: "hero-image.jpg" }) {
           childImageSharp {
             gatsbyImageData(placeholder: NONE, formats: AUTO)
-            fluid(quality: 90, maxWidth: 1920) {
-              ...GatsbyImageSharpFluid_withWebp
+            fixed(quality: 90, height: 1200) {
+              ...GatsbyImageSharpFixed_withWebp
             }
           }
         }
@@ -31,28 +31,26 @@ const Header = () => {
   return (
     <header>
       <Nav />
-
-      <BackgroundImage
-        Tag="section"
-        //spread bgImage
-        {...bgImage}
-        preserveStackingContext
-        className="hero"
-      >
-        <div>
-          <GatsbyImage image={image} alt={"hero-image.jpg"} />
-        </div>
-        <div className="hero-content max-w-lg space-y-4">
-          <div className="flex flex-col justify-center text-center">
-            <h4 className="text-xl md:text-2xl lg:text-3xl font-brandon italic py-4">
-              Hello, I'm
-            </h4>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-brandon uppercase font-semibold">
-              Subeom Jeong
-            </h1>
+      <div>
+        <BackgroundImage
+          Tag="section"
+          //spread bgImage
+          {...bgImage}
+          preserveStackingContext
+          className="hero min-h-screen"
+        >
+          <div className="hero-content max-w-lg space-y-4">
+            <div className="flex flex-col justify-center text-center">
+              <h4 className="text-xl md:text-2xl lg:text-3xl font-brandon italic py-4">
+                Hello, I'm
+              </h4>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-brandon uppercase font-semibold">
+                Subeom Jeong
+              </h1>
+            </div>
           </div>
-        </div>
-      </BackgroundImage>
+        </BackgroundImage>
+      </div>
     </header>
   )
 }
