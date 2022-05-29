@@ -37,7 +37,7 @@ const Header = () => {
           //spread bgImage
           {...bgImage}
           preserveStackingContext
-          className="hero min-h-screen"
+          className="hero min-h-screen bg-fixed"
         >
           <div className="hero-content max-w-lg space-y-4">
             <div className="flex flex-col justify-center text-center">

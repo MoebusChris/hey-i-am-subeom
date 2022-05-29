@@ -1,14 +1,15 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 
 const System = () => {
   return (
-    <div>
-      <StaticImage
-        src="../../images/JourneyPhoto/0.jpg"
-        alt="Trinion"
-        className="w-[600]"
-      />
+    <div className="py-20 max-w-7xl mx-auto">
+      <div>
+        <div>
+          <h2 className="text-center font-brandon mb-8 text-2xl md:text-4xl font-bold">
+            My System
+          </h2>
+        </div>
+      </div>
     </div>
   )
 }

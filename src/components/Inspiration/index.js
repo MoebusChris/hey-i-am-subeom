@@ -31,27 +31,32 @@ const Inspiration = ({ className }) => {
         //spread bgImage
         {...bgImage}
         preserveStackingContext
+        className="bg-fixed"
       >
         <div className="py-20 max-w-7xl mx-auto">
           <div>
-            {/*Card left side here */}
             <div>
               <h2 className="text-center font-brandon mb-8 text-2xl md:text-4xl font-bold">
                 My inspiration
               </h2>
             </div>
-
+            {/*Card left side here */}
             <div className="flex justify-center items-center flex-col md:flex-row">
               <div className="items-center">
                 <div>
-                  <div className=" w-80 h-44 lg:w-96 lg:h-48 flex justify-center mb-8 hover:scale-110 duration-200 delay-200">
+                  {/*Card-1 */}
+                  <div className=" w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200">
+                    <div className="absolute z-20">
+                      <h4>fjkd</h4>
+                    </div>
                     <StaticImage
                       src="../../images/Peterson.jpeg"
                       alt="Peterson"
                       className="w-11/12  bg-contain bg-center"
                     />
                   </div>
-                  <div className="w-80 h-44 lg:w-96 lg:h-48 flex justify-center mb-8 hover:scale-110 duration-200 delay-200">
+                  {/*Card-2 */}
+                  <div className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200">
                     <StaticImage
                       src="../../images/Dorsey.webp"
                       alt="Dorsey"
@@ -62,15 +67,17 @@ const Inspiration = ({ className }) => {
               </div>
 
               {/*Card right side here */}
+              {/*Card-3 */}
               <div className="">
-                <div className="w-80 h-44 lg:w-96 lg:h-48 flex justify-center mb-8 hover:scale-110 duration-200 delay-200">
+                <div className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200">
                   <StaticImage
                     src="../../images/Howard.jpeg"
                     alt="Peterson"
                     className="w-11/12  bg-contain bg-center"
                   />
                 </div>
-                <div className="w-80 h-44 lg:w-96 lg:h-48 flex justify-center mb-8 hover:scale-110 duration-200 delay-200">
+                {/*Card-4 */}
+                <div className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200">
                   <StaticImage
                     src="../../images/Dorsey.webp"
                     alt="Dorsey"

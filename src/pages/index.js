@@ -1,4 +1,5 @@
 import React from "react"
+import Community from "../components/community"
 import Inspiration from "../components/Inspiration"
 import Journey from "../components/journey"
 import Layout from "../components/layout"
@@ -9,6 +10,7 @@ export default function Home() {
     <Layout>
       <Journey />
       <Inspiration />
+      <Community />
       <System />
     </Layout>
   )
