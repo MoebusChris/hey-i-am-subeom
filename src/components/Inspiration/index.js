@@ -46,9 +46,6 @@ const Inspiration = ({ className }) => {
                 <div>
                   {/*Card-1 */}
                   <div className=" w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200">
-                    <div className="absolute z-20">
-                      <h4>fjkd</h4>
-                    </div>
                     <StaticImage
                       src="../../images/Peterson.jpeg"
                       alt="Peterson"

@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         brandon: ["brandon-grotesque", "system-ui", "sans-serif"],
         roboto: ["Roboto", "helvetica", "sans-serif"],
+        bebas: ["Bebas Neue", "helvetica", "sans-serif"],
       },
     },
   },
