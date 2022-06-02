@@ -28,28 +28,26 @@ const Journey = () => {
                 trinion america, inc.
               </a>
               <div class="block mt-2 text-base leading-tight font-medium text-lime-700 font-roboto break-normal">
-                Financial Accounting Specialist,
-                <p className="italic">Since February 2020</p>
+                <p className="italic">
+                  Financial Accounting Specialist, Since February 2020
+                </p>
               </div>
               <div class="block mt-2 text-base leading-tight font-medium text-slate-600 font-roboto">
                 San Diego, CA
               </div>
               <p class="mt-2 text-slate-500 font-roboto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                unde numquam ipsa iure, recusandae necessitatibus totam quas,
-                reprehenderit accusamus harum natus quod, quis facere earum
-                deleniti hic sed modi officia! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Cupiditate pariatur dolores labore
-                expedita molestias, culpa, alias mollitia corrupti obcaecati
-                quae earum ad. Omnis cum facere laborum nulla voluptates
-                voluptatem fuga. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Soluta, ipsam nobis, minus sapiente vero fugit
-                dicta iure harum quas in ipsum amet eaque atque non,
-                consequuntur tempora accusamus. Dolorem, nesciunt? Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Quaerat quia
-                repudiandae, reiciendis animi vero aperiam est vel cumque nobis
-                autem optio aliquam deleniti possimus maxime, consequatur
-                incidunt eum. Minus, explicabo?
+                It is grateful to have an opportunity to work at a Hyundai
+                Motors Affiliate, Trinion America. Trinion America Inc. provides
+                transporting services and warehouse management services. Working
+                in the accounting team, I prepare financial statements and
+                reports, advising the top management on sales practices and
+                strategies. As the business grows fast, the team I work with
+                focuses on strategic analysis for more profitable acquisitions.
+                In several projects, my role is to break down the costs and
+                expenses, measure future cash flow projections, and estimate an
+                acceptable rate of return for acquisition. I am detail-oriented
+                and numeric-oriented, and these personal traits help me deduce
+                more accurate P&amp;L projections.
               </p>
             </div>
           </div>
@@ -72,28 +70,30 @@ const Journey = () => {
                 Blue Ocean Sushi
               </a>
               <div class="block mt-2 text-base leading-tight font-medium text-lime-700 font-roboto break-normal">
-                General Manager,
-                <p className="italic">October 2016-February 2020</p>
+                <p className="italic">
+                  General Manager, October 2016-February 2020
+                </p>
               </div>
               <div class="block mt-2 text-base leading-tight font-medium text-slate-600 font-roboto">
                 Carlsbad, CA
               </div>
               <p class="mt-2 text-slate-500 font-roboto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                unde numquam ipsa iure, recusandae necessitatibus totam quas,
-                reprehenderit accusamus harum natus quod, quis facere earum
-                deleniti hic sed modi officia! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Cupiditate pariatur dolores labore
-                expedita molestias, culpa, alias mollitia corrupti obcaecati
-                quae earum ad. Omnis cum facere laborum nulla voluptates
-                voluptatem fuga. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Soluta, ipsam nobis, minus sapiente vero fugit
-                dicta iure harum quas in ipsum amet eaque atque non,
-                consequuntur tempora accusamus. Dolorem, nesciunt? Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Quaerat quia
-                repudiandae, reiciendis animi vero aperiam est vel cumque nobis
-                autem optio aliquam deleniti possimus maxime, consequatur
-                incidunt eum. Minus, explicabo?
+                I have been in the food industry before pursuing my financial
+                career. I had been working and studying in my entire college
+                year. I chose to work at a restaurant because of the flexible
+                work schedules. A restaurant is not a simple place as many
+                thought it was. I would arguably say that restaurant jobs are
+                quite fast-paced and stressful. I have witnessed many restaurant
+                workers fail to manage their anger and anxiety at work. However,
+                I took my job differently and ceased criticizing what I was
+                doing and what I would have done. Instead, I decided to be
+                grateful, diligent, and reliable. I established good
+                relationships with my co-workers and engaged with customers. I
+                never dropped smiles when I took care of my customers. It was
+                not to make more money out of gratuity but to establish the
+                business mind. After all, I had been promoted three times in the
+                first six months and became a general manager at Blue Ocean
+                Sushi group, operating 7 restaurants in San Diego, CA.
               </p>
             </div>
           </div>
@@ -122,21 +122,17 @@ const Journey = () => {
                 La Jolla, CA
               </div>
               <p class="mt-2 text-slate-500 font-roboto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                unde numquam ipsa iure, recusandae necessitatibus totam quas,
-                reprehenderit accusamus harum natus quod, quis facere earum
-                deleniti hic sed modi officia! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Cupiditate pariatur dolores labore
-                expedita molestias, culpa, alias mollitia corrupti obcaecati
-                quae earum ad. Omnis cum facere laborum nulla voluptates
-                voluptatem fuga. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Soluta, ipsam nobis, minus sapiente vero fugit
-                dicta iure harum quas in ipsum amet eaque atque non,
-                consequuntur tempora accusamus. Dolorem, nesciunt? Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Quaerat quia
-                repudiandae, reiciendis animi vero aperiam est vel cumque nobis
-                autem optio aliquam deleniti possimus maxime, consequatur
-                incidunt eum. Minus, explicabo?
+                UC San Diego presented a variety of exciting, engaging, and
+                diverse cultures. My college year at UCSD offered an opportunity
+                of engaging with phenomenal faculty and peers. My experience
+                with professors integrated the abstract concepts of economy and
+                finance, turning out to be a concrete understanding of business
+                and investment. I enjoyed peer-to-peer practice outside of
+                lectures and supplementary activities to improve my insight.
+                Professors liked to be challenged by students to share thoughts
+                and ideas. The faculty did not only focus on students' academic
+                attainment but also did they emphasize the importance of
+                diversity.
               </p>
             </div>
           </div>
@@ -166,21 +162,14 @@ const Journey = () => {
                 Los Angeles, CA
               </div>
               <p class="mt-2 text-slate-500 font-roboto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                unde numquam ipsa iure, recusandae necessitatibus totam quas,
-                reprehenderit accusamus harum natus quod, quis facere earum
-                deleniti hic sed modi officia! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Cupiditate pariatur dolores labore
-                expedita molestias, culpa, alias mollitia corrupti obcaecati
-                quae earum ad. Omnis cum facere laborum nulla voluptates
-                voluptatem fuga. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Soluta, ipsam nobis, minus sapiente vero fugit
-                dicta iure harum quas in ipsum amet eaque atque non,
-                consequuntur tempora accusamus. Dolorem, nesciunt? Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Quaerat quia
-                repudiandae, reiciendis animi vero aperiam est vel cumque nobis
-                autem optio aliquam deleniti possimus maxime, consequatur
-                incidunt eum. Minus, explicabo?
+                I'm so excited to add programming skills to my toolbox. I always
+                follow new IT technologies, and Web3 got my attention. I
+                researched some good places to start. The developer course was
+                the thing. There are always lots of fun stuff to learn in web
+                application development. I enjoyed every corner, and I keep
+                expanding skills and knowledges. Now, I'm learning Data
+                Analytics to integrate my financial insight with my IT
+                knowledges.
               </p>
             </div>
           </div>

@@ -24,9 +24,7 @@ const Nav = () => {
       </div>
 
       <div>
-        <h3 className="text-white bg-blue-500 px-4 py-1 rounded-full">
-          Follow
-        </h3>
+        <h3 className="text-white bg-sky-600 px-4 py-1 rounded-full">Follow</h3>
       </div>
     </nav>
   )
