@@ -8,6 +8,7 @@ const query = graphql`
       siteMetadata {
         description
         title
+        author
       }
     }
   }
@@ -15,11 +16,13 @@ const query = graphql`
 
 const SEO = ({ title, description }) => {
   const { site } = useStaticQuery(query)
+  const metaDescription = description || site.siteMetadata.description
+
   return (
     <Helmet
       htmlAttributes={{ lang: "en" }}
-      title={title}
-      meta={[{ name: `description`, content: description }]}
+      title={`${site.siteMetadata.title}`}
+      meta={[{ name: `description`, content: metaDescription }]}
     ></Helmet>
   )
 }
