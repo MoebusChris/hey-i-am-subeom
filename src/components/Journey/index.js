@@ -15,9 +15,9 @@ const Journey = () => {
           <div class="md:flex">
             <div class="flex justify-center p-8 md:shrink-0">
               <StaticImage
-                src="../../images/JourneyPhoto/0.jpg"
+                src="https://i0.wp.com/illinoisksa.org/wp-content/uploads/kboard_attached/7/202112/61b3bd1b52ed95971902.jpg?w=685&ssl=1"
                 alt="Trinion"
-                className="w-96 md:w-44 rounded-3xl self-center"
+                className="w-96 h-80 md:w-44 md:h-[138px] bg-top rounded-3xl self-center"
               />
             </div>
             <div class="p-8">
@@ -57,9 +57,9 @@ const Journey = () => {
           <div class="md:flex">
             <div class="flex justify-center p-8 md:shrink-0">
               <StaticImage
-                src="../../images/JourneyPhoto/1.jpg"
+                src="https://images.squarespace-cdn.com/content/v1/58c5cd72bf629a853368b4eb/1493105380503-CUFZ4ULOK7OO3C64XIES/Signage_all.jpg?format=1500w"
                 alt="Blue Ocean"
-                className="w-96 md:w-44 rounded-3xl self-center"
+                className="w-96 h-80 md:w-44 md:h-[138px] bg-top rounded-3xl self-center"
               />
             </div>
             <div class="p-8">
@@ -103,9 +103,9 @@ const Journey = () => {
           <div class="md:flex">
             <div class="flex justify-center p-8 md:shrink-0">
               <StaticImage
-                src="../../images/JourneyPhoto/2.jpg"
+                src="https://2qqce331qbpvuwhs03ipa6o4-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/cover.jpg"
                 alt="Giesel Library"
-                className="w-96 md:w-44 rounded-3xl self-center"
+                className="w-96 h-80 md:w-44 md:h-[138px] bg-top rounded-3xl self-center"
               />
             </div>
             <div class="p-8">
@@ -142,9 +142,9 @@ const Journey = () => {
           <div class="md:flex">
             <div class="flex justify-center p-8 md:shrink-0">
               <StaticImage
-                src="../../images/JourneyPhoto/3.jpg"
+                src="https://the-winston-project.imgix.net/610beec5aea874132acbafda/126_ucla-extension.png"
                 alt="UCLA Bootcamp"
-                className="w-96 md:w-44 rounded-3xl self-center"
+                className="w-96 h-80 md:w-44 md:h-[138px] bg-top rounded-3xl self-center"
               />
             </div>
             <div class="p-8">
