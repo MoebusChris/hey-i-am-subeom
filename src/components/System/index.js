@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { getImage, GatsbyImage } from "gatsby-plugin-image"
 import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
+import "../../styles/line.css"
 
 const System = ({ className }) => {
   const { systemBgImage } = useStaticQuery(
@@ -32,9 +33,9 @@ const System = ({ className }) => {
       <div className="py-20 max-w-7xl mx-auto">
         <div className="text-white">
           <div>
-            <h2 className="text-center font-brandon mb-14 text-2xl md:text-4xl font-bold">
-              My system
-            </h2>
+            <div>
+              <h2 className="white font-brandon">My system</h2>
+            </div>
           </div>
           <div>
             <ui className="flex flex-col space-y-7 text-center list-none font-bebas text-xl md:text-2xl font-semibold uppercase">

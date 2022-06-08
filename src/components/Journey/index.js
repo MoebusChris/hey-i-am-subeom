@@ -1,15 +1,15 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import "../../styles/line.css"
 
 const Journey = () => {
   return (
     <div className="py-20 max-w-7xl mx-auto">
       <div>
         <div>
-          <h2 className="text-center font-brandon mb-8 text-2xl md:text-4xl font-bold">
-            My journey
-          </h2>
+          <h2 className="black font-brandon">My journey</h2>
         </div>
+
         {/*Trinion America here */}
         <div class="max-w-md mx-auto bg-white overflow-hidden md:max-w-4xl">
           <div class="md:flex">

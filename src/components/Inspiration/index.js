@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { getImage, GatsbyImage } from "gatsby-plugin-image"
 import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
+import "../../styles/line.css"
 
 const Inspiration = ({ className }) => {
   const { inspirationBgImage } = useStaticQuery(
@@ -36,9 +37,9 @@ const Inspiration = ({ className }) => {
         <div className="py-20 max-w-7xl mx-auto">
           <div>
             <div>
-              <h2 className="text-center font-brandon mb-8 text-2xl md:text-4xl font-bold">
-                My inspiration
-              </h2>
+              <div>
+                <h2 className="white font-brandon">My inspiration</h2>
+              </div>
             </div>
             {/*Card left side here */}
             <div className="flex justify-center items-center flex-col md:flex-row">
