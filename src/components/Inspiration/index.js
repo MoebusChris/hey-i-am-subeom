@@ -41,6 +41,16 @@ const Inspiration = ({ className }) => {
                 <h2 className="white font-brandon">My inspiration</h2>
               </div>
             </div>
+            {/*component's description */}
+            <div>
+              <p className="font-brandon text-xl text-white text-center mb-2">
+                I share the philosophies and insights that I am inspired.
+              </p>
+              <p className="font-brandon text-xl text-white text-center mb-20">
+                Web3 and ESG will be the norm of every industries and businesses
+                in the future. I want you to take a glance.
+              </p>
+            </div>
             {/*Card left side here */}
             <div className="flex justify-center items-center flex-col md:flex-row">
               <div className="items-center">

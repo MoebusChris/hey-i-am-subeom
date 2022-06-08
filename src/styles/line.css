@@ -1,6 +1,6 @@
 /*white font color*/
 .black {
-  margin: 100px auto;
+  margin: 30px auto;
   color: black;
   text-align: center;
   font-size: 24px;
@@ -22,7 +22,7 @@
 
 @media (min-width: 768px) {
   .black {
-    margin: 100px auto;
+    margin: 30px auto;
     color: black;
     text-align: center;
     font-size: 36px;
@@ -55,7 +55,7 @@
 }
 
 .white {
-  margin: 100px auto;
+  margin: 30px auto;
   color: white;
   text-align: center;
   font-size: 24px;
@@ -77,7 +77,7 @@
 
 @media (min-width: 768px) {
   .white {
-    margin: 100px auto;
+    margin: 30px auto;
     color: white;
     text-align: center;
     font-size: 36px;
