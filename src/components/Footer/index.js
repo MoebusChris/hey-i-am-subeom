@@ -2,14 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 import linkedin from "../../images/Linkedin.webp"
 import facebook from "../../images/Facebook-logo.webp"
+import "../../styles/line.css"
 
 const Footer = () => {
   return (
     <footer className="max-w-7xl mx-auto">
       <div>
-        <h2 className="text-center font-brandon text-2xl md:text-4xl font-bold">
-          Let's connect
-        </h2>
+        <div>
+          <h2 className="black font-brandon">Let's connected</h2>
+        </div>
       </div>
       <div className="font-brandon mb-7">
         <div className="flex justify-center mb-6">
