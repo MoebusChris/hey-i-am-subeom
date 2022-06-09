@@ -1,23 +1,23 @@
-/*white font color*/
+/*black font color*/
+
 .black {
-  margin: 30px auto;
+  margin: auto;
   color: black;
   text-align: center;
   font-size: 24px;
-  max-width: 600px;
+  max-width: 300px;
   position: relative;
   font-weight: bold;
 }
 
-.black:before {
+.black-sm {
   content: "";
   display: block;
-  width: 172px;
+  width: 80px;
   height: 2px;
   background: black;
-  left: 214px;
+  left: 0px;
   top: 100%;
-  position: absolute;
 }
 
 @media (min-width: 768px) {
@@ -54,6 +54,7 @@
   }
 }
 
+/*white font color*/
 .white {
   margin: 30px auto;
   color: white;
