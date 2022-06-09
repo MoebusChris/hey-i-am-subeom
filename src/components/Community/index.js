@@ -4,7 +4,7 @@ import "../../styles/line.css"
 const Community = () => {
   return (
     <div className="py-20 max-w-5xl mx-auto">
-      <div>
+      <div className="mb-5">
         <div>
           <div>
             <h2 className="black font-brandon">My community</h2>

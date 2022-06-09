@@ -10,16 +10,6 @@
   font-weight: bold;
 }
 
-.black-sm {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: black;
-  left: 0px;
-  top: 100%;
-}
-
 @media (min-width: 768px) {
   .black {
     margin: 30px auto;
@@ -63,17 +53,6 @@
   max-width: 600px;
   position: relative;
   font-weight: bold;
-}
-
-.white:before {
-  content: "";
-  display: block;
-  width: 172px;
-  height: 2px;
-  background: white;
-  left: 214px;
-  top: 100%;
-  position: absolute;
 }
 
 @media (min-width: 768px) {

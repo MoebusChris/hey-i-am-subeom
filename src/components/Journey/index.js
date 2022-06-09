@@ -24,7 +24,7 @@ const Journey = () => {
             <div class="p-8">
               <a
                 href="#"
-                class="capitalize tracking-wide text-2xl text-sky-600 font-normal font-brandon  hover:underline"
+                class="capitalize tracking-wide text-xl md:text-2xl text-sky-600 font-normal font-brandon  hover:underline"
               >
                 trinion america, inc.
               </a>
@@ -66,7 +66,7 @@ const Journey = () => {
             <div class="p-8">
               <a
                 href="#"
-                class="capitalize tracking-wide text-2xl text-sky-600 font-normal font-brandon  hover:underline"
+                class="capitalize tracking-wide text-xl md:text-2xl text-sky-600 font-normal font-brandon  hover:underline"
               >
                 Blue Ocean Sushi
               </a>
@@ -112,7 +112,7 @@ const Journey = () => {
             <div class="p-8">
               <a
                 href="#"
-                class="capitalize tracking-wide text-2xl text-sky-600 font-normal font-brandon  hover:underline"
+                class="capitalize tracking-wide text-xl md:text-2xl text-sky-600 font-normal font-brandon  hover:underline"
               >
                 University of California, San Diego
               </a>
@@ -151,7 +151,7 @@ const Journey = () => {
             <div class="p-8">
               <a
                 href="#"
-                class="capitalize tracking-wide text-2xl text-sky-600 font-normal font-brandon  hover:underline"
+                class="capitalize tracking-wide text-xl md:text-2xl text-sky-600 font-normal font-brandon  hover:underline"
               >
                 The coding bootcamp, UCLA extention
               </a>

@@ -36,20 +36,19 @@ const Inspiration = ({ className }) => {
       >
         <div className="py-20 max-w-7xl mx-auto">
           <div>
-            <div>
+            <div className="mb-10">
               <div>
-                <h2 className="white font-brandon">My inspiration</h2>
+                <div>
+                  <h2 className="white font-brandon">My inspiration</h2>
+                </div>
               </div>
-            </div>
-            {/*component's description */}
-            <div>
-              <p className="font-brandon text-xl text-white text-center mb-2">
-                I share the philosophies and insights that I am inspired.
-              </p>
-              <p className="font-brandon text-xl text-white text-center mb-20">
-                Web3 and ESG will be the norm of every industries and businesses
-                in the future. I want you to take a glance.
-              </p>
+              {/*component's description */}
+              <div className="font-brandon md:text-xl text-white">
+                <p className="text-center mb-2">
+                  I share the ideas and insights that
+                </p>
+                <p className="text-center mb-2">wfwfwfwf</p>
+              </div>
             </div>
             {/*Card left side here */}
             <div className="flex justify-center items-center flex-col md:flex-row">
