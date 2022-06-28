@@ -21,27 +21,36 @@ const Community = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/*Card-1 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <h4 className="text-2xl font-semibold font-brandon mb-2">
-              Free Coding Camp
+              Gitcoin🦾
             </h4>
-            <p className="font-roboto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-              culpa natus veritatis, facilis dolor quasi corporis tempora esse
+            <p className="font-roboto font-thin">
+              <a href="https://gitcoin.co/" className="border-b border-black">
+                Gitcoin
+              </a>
+              &nbsp;is a platform of builders, creators, and developers to
+              collaborate and monetize their skills.
             </p>
           </div>
         </div>
         {/*Card-1 ends here */}
         {/*Card-2 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <div>
               <h4 className="text-2xl font-semibold font-brandon mb-2">
-                Free Coding Camp
+                freeCodeCamp🏕️
               </h4>
-              <p className="font-roboto">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-                culpa natus veritatis, facilis dolor quasi corporis tempora esse
+              <p className="font-roboto font-thin">
+                <a
+                  href="https://www.freecodecamp.org/"
+                  className="border-b border-black"
+                >
+                  FreeCodeCamp
+                </a>
+                &nbsp;is a non-profit organization that consists of useful
+                information for self-learner.
               </p>
             </div>
           </div>
@@ -49,14 +58,20 @@ const Community = () => {
         {/*Card-2 ends here*/}
         {/*Card-3 ends here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <div>
               <h4 className="text-2xl font-semibold font-brandon mb-2">
-                Free Coding Camp
+                Moralis🧙
               </h4>
-              <p className="font-roboto">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-                culpa natus veritatis, facilis dolor quasi corporis tempora esse
+              <p className="font-roboto font-thin">
+                <a
+                  href="https://forum.moralis.io/"
+                  className="border-b border-black"
+                >
+                  Moralis
+                </a>
+                &nbsp;is a community forum for crypto developers to share
+                information about dApps.
               </p>
             </div>
           </div>
@@ -64,78 +79,105 @@ const Community = () => {
         {/*Card-3 ends here */}
         {/*Card-4 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <h4 className="text-2xl font-semibold font-brandon mb-2">
-              Free Coding Camp
+              DEV Community🔥
             </h4>
-            <p className="font-roboto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-              culpa natus veritatis, facilis dolor quasi corporis tempora esse
+            <p className="font-roboto font-thin">
+              <a href="https://dev.to/" className="border-b border-black">
+                Dev Community
+              </a>
+              &nbsp;is a community forum for crypto developers to share
+              information about dApps.
             </p>
           </div>
         </div>
         {/*Card-4 ends here */}
         {/*Card-5 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <h4 className="text-2xl font-semibold font-brandon mb-2">
-              Free Coding Camp
+              Hashnode🏄
             </h4>
-            <p className="font-roboto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-              culpa natus veritatis, facilis dolor quasi corporis tempora esse
+            <p className="font-roboto font-thin">
+              <a href="https://hashnode.com/" className="border-b border-black">
+                Hashnode
+              </a>
+              &nbsp;is a blogging platform that you can share your ideas and
+              thoughts with people in tech, developers, and engineers.
             </p>
           </div>
         </div>
         {/*Card-5 ends here */}
         {/*Card-6 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <h4 className="text-2xl font-semibold font-brandon mb-2">
-              Free Coding Camp
+              Coding Horror🧟
             </h4>
-            <p className="font-roboto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-              culpa natus veritatis, facilis dolor quasi corporis tempora esse
+            <p className="font-roboto font-thin">
+              <a
+                href="https://blog.codinghorror.com/"
+                className="border-b border-black"
+              >
+                Coding Horror
+              </a>
+              &nbsp;is a great place to read useful things for developers,
+              written by Jeff Atwood, co-founder of Stack Overflow.
             </p>
           </div>
         </div>
         {/*Card-6 ends here */}
         {/*Card-7 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <h4 className="text-2xl font-semibold font-brandon mb-2">
-              Free Coding Camp
+              Hackernoon🔮
             </h4>
-            <p className="font-roboto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-              culpa natus veritatis, facilis dolor quasi corporis tempora esse
+            <p className="font-roboto font-thin">
+              <a
+                href="https://hackernoon.com/"
+                className="border-b border-black"
+              >
+                Hackernoon
+              </a>
+              &nbsp;is a platform that delivers an independant tech blog witten
+              by tech professionals.
             </p>
           </div>
         </div>
         {/*Card-7 ends here */}
         {/*Card-8 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <h4 className="text-2xl font-semibold font-brandon mb-2">
-              Free Coding Camp
+              DZone📰
             </h4>
-            <p className="font-roboto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-              culpa natus veritatis, facilis dolor quasi corporis tempora esse
+            <p className="font-roboto font-thin">
+              <a href="https://dzone.com/" className="border-b border-black">
+                DZone
+              </a>
+              &nbsp;is one of the largest online communities that provides free
+              tutorial, reviews, and articles.
             </p>
           </div>
         </div>
         {/*Card-8 ends here */}
         {/*Card-9 starts here */}
         <div className="flex justify-center">
-          <div className="max-w-xs p-8 border border-slate-400">
+          <div className="max-w-xs p-6 border border-slate-400">
             <h4 className="text-2xl font-semibold font-brandon mb-2">
-              Free Coding Camp
+              Flavio&nbsp;Copes🦸
             </h4>
-            <p className="font-roboto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem a
-              culpa natus veritatis, facilis dolor quasi corporis tempora esse
+            <p className="font-roboto font-thin">
+              <a
+                href="https://flaviocopes.com/"
+                className="border-b border-black"
+              >
+                Flavio Copes
+              </a>
+              &nbsp;is an awesome italian computer engineer, who published free
+              handbooks for several programming languages. Check his website!
             </p>
           </div>
         </div>
