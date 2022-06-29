@@ -5,14 +5,14 @@ const Community = () => {
   return (
     <div className="py-20 max-w-5xl mx-auto">
       <div className="mb-5">
-        <div>
+        <div className="text-center">
           <div>
             <h2 className="black font-brandon">My community</h2>
           </div>
-          <div>
-            <p>
-              I share the communities and forums that I follow to acquire more
-              knowledge and ideas about future finance industry.
+          <div className="font-brandon md:text-xl">
+            <p className="text-center mb-8">
+              It is important to interact with experts in developer communities.
+              I share a few online communities where I learn new materials.
             </p>
           </div>
         </div>
