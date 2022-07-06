@@ -9,7 +9,7 @@ const Community = () => {
           <div>
             <h2 className="black font-brandon">My community</h2>
           </div>
-          <div className="font-brandon md:text-xl">
+          <div className="px-10 font-brandon md:text-xl">
             <p className="text-center mb-8">
               It is important to interact with experts in developer communities.
               I share a few online communities where I learn new materials.
@@ -18,7 +18,7 @@ const Community = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-5">
         {/*Card-1 starts here */}
         <div className="flex justify-center">
           <div className="max-w-xs p-6 border border-slate-400">

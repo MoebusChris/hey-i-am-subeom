@@ -4,7 +4,7 @@ import "../../styles/line.css"
 
 const Journey = () => {
   return (
-    <div className="py-20 max-w-7xl mx-auto">
+    <div className="py-20 mx-2 max-w-7xl mx-auto">
       <div>
         <div>
           <div>

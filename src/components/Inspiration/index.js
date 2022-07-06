@@ -34,7 +34,7 @@ const Inspiration = ({ className }) => {
         preserveStackingContext
         className="bg-fixed"
       >
-        <div className="py-20 max-w-7xl mx-auto">
+        <div className="py-20 max-w-5xl mx-auto">
           <div>
             <div className="mb-10">
               <div>
@@ -43,11 +43,13 @@ const Inspiration = ({ className }) => {
                 </div>
               </div>
               {/*component's description */}
-              <div className="font-brandon md:text-xl text-white">
+              <div className="px-10 font-brandon md:text-xl text-white">
                 <p className="text-center mb-2">
-                  I share the ideas and insights that
+                  Where are we going? Just like Dotcom bubble, ground is
+                  shifting below our feet. And, the change from classic industry
+                  to new world is much interesting for me. I share some articles
+                  that are useful to read the future trend.
                 </p>
-                <p className="text-center mb-2">wfwfwfwf</p>
               </div>
             </div>
             {/*Card left side here */}
@@ -56,12 +58,12 @@ const Inspiration = ({ className }) => {
                 <div>
                   {/*Card-1 */}
                   <Link
-                    href="https://www.linkedin.com/pulse/jordan-c-peterson-future-work-dr-richard-claydon/?trk=p_public_post_promoted_post"
+                    href="https://medium.com/the-coinbase-blog/a-simple-guide-to-the-web3-stack-785240e557f0"
                     className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
                   >
                     <StaticImage
-                      src="https://media-exp1.licdn.com/dms/image/C5112AQGK2-siys0bUw/article-cover_image-shrink_600_2000/0/1521251244772?e=1660176000&v=beta&t=g5gOtGc-cSf8WsmDtwalHWEr3_46eREm7t30MbIzCx8"
-                      alt="Peterson"
+                      src="https://miro.medium.com/max/1400/1*lARFTT3HlyZO4QDJB9b5lQ.png"
+                      alt="article1"
                       className="w-11/12 bg-contain bg-center"
                     />
                   </Link>
@@ -84,12 +86,12 @@ const Inspiration = ({ className }) => {
               {/*Card-3 */}
               <div className="items-center">
                 <Link
-                  href="https://www.linkedin.com/pulse/10-lessons-from-howard-marks-oaktree-capital-thomas-chua/?trk=articles_directory"
+                  href="https://www.matellio.com/blog/7-ways-ai-and-ml-are-transforming-fintech-industry/"
                   className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
                 >
                   <StaticImage
-                    src="https://media-exp1.licdn.com/dms/image/C5612AQFaJBM_VTgnUA/article-cover_image-shrink_720_1280/0/1642209920066?e=1660176000&v=beta&t=YBjy-SiM6-71P8W-8znzWgWg3pZL8pXQEtiKV4Ipcec"
-                    alt="Peterson"
+                    src="https://www.matellio.com/blog/wp-content/uploads/2021/04/5-Ways-AI-and-ML-are-transforming-Fintech-Industry-2-1.jpg"
+                    alt="article-2"
                     className="w-11/12  bg-contain bg-center"
                   />
                 </Link>

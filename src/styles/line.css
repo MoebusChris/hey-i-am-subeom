@@ -1,10 +1,10 @@
 /*black font color*/
 
 .black {
-  margin: auto;
+  margin: 30px auto;
   color: black;
   text-align: center;
-  font-size: 24px;
+  font-size: 36px;
   max-width: 300px;
   position: relative;
   font-weight: bold;
@@ -49,7 +49,7 @@
   margin: 30px auto;
   color: white;
   text-align: center;
-  font-size: 24px;
+  font-size: 36px;
   max-width: 600px;
   position: relative;
   font-weight: bold;
