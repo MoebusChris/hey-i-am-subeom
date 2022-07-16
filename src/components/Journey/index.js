@@ -209,7 +209,9 @@ const Journey = () => {
                 I'm so excited to add programming skills to my toolbox. It was a
                 great place to start to learn to code. There are lots of fun
                 stuff to learn in web application development. I enjoyed every
-                corner, and I keep expanding skills and knowledge.
+                corner, and I keep expanding skills and knowledge. I feel like
+                bootcamp is the place to start, not the place to land. After
+                finishing
               </div>
             </div>
           </div>
