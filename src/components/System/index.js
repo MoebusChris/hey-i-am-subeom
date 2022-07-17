@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { getImage, GatsbyImage } from "gatsby-plugin-image"
 import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
+import "../../styles/line.css"
 
 const System = ({ className }) => {
   const { systemBgImage } = useStaticQuery(
@@ -32,9 +33,9 @@ const System = ({ className }) => {
       <div className="py-20 max-w-7xl mx-auto">
         <div className="text-white">
           <div>
-            <h2 className="text-center font-brandon mb-14 text-2xl md:text-4xl font-bold">
-              My system
-            </h2>
+            <div>
+              <h2 className="white font-brandon">My vision</h2>
+            </div>
           </div>
           <div>
             <ui className="flex flex-col space-y-7 text-center list-none font-bebas text-xl md:text-2xl font-semibold uppercase">
@@ -42,7 +43,7 @@ const System = ({ className }) => {
               <li>Learn everyday</li>
               <li>Be detail-oriented</li>
               <li>Gain tools as many as you can</li>
-              <li>Work in a team as a whole</li>
+              <li>Work on a team as a whole</li>
               <li>Prioritize your customer needs</li>
               <li>Treat everyone kindly</li>
               <li>Light up in the darkest night</li>

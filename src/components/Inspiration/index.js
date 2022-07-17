@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { getImage, GatsbyImage } from "gatsby-plugin-image"
 import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
+import "../../styles/line.css"
 
 const Inspiration = ({ className }) => {
   const { inspirationBgImage } = useStaticQuery(
@@ -33,12 +34,30 @@ const Inspiration = ({ className }) => {
         preserveStackingContext
         className="bg-fixed"
       >
-        <div className="py-20 max-w-7xl mx-auto">
+        <div className="py-20 max-w-5xl mx-auto">
           <div>
-            <div>
-              <h2 className="text-center font-brandon mb-8 text-2xl md:text-4xl font-bold">
-                My inspiration
-              </h2>
+            <div className="mb-10">
+              <div>
+                <div>
+                  <h2 className="white font-brandon">My inspiration</h2>
+                </div>
+              </div>
+              {/*component's description */}
+              <div className="px-10 md:px-20 font-brandon md:text-xl text-white">
+                <div className="flex justify-center">
+                  <div>
+                    <p className="text-center text-base mb-8 lg:text-xl w-80 md:w-[640px] lg:w-[960px]">
+                      Industrial revolution has never been rapid. No industry is
+                      immune. Advanced technology adoption will be essential for
+                      upcoming competition of a new order. I share a few
+                      inspiring articles that depict the future industry.
+                    </p>
+                    <p className="text-center text-base font-semibold mb-2 lg:text-xl w-80 md:w-[700px] lg:w-[1000px]">
+                      My articles are coming up soon.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             {/*Card left side here */}
             <div className="flex justify-center items-center flex-col md:flex-row">
@@ -46,23 +65,23 @@ const Inspiration = ({ className }) => {
                 <div>
                   {/*Card-1 */}
                   <Link
-                    href="https://www.linkedin.com/pulse/jordan-c-peterson-future-work-dr-richard-claydon/?trk=p_public_post_promoted_post"
-                    className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
+                    href="https://medium.com/the-coinbase-blog/a-simple-guide-to-the-web3-stack-785240e557f0"
+                    className="w-[360px] h-44 md:w-[310px] md:h-36 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
                   >
                     <StaticImage
-                      src="https://media-exp1.licdn.com/dms/image/C5112AQGK2-siys0bUw/article-cover_image-shrink_600_2000/0/1521251244772?e=1660176000&v=beta&t=g5gOtGc-cSf8WsmDtwalHWEr3_46eREm7t30MbIzCx8"
-                      alt="Peterson"
+                      src="https://miro.medium.com/max/1400/1*lARFTT3HlyZO4QDJB9b5lQ.png"
+                      alt="article1"
                       className="w-11/12 bg-contain bg-center"
                     />
                   </Link>
 
                   {/*Card-2 */}
                   <Link
-                    href="https://www.mediumenergy.io/p/part-25-the-ultimate-promise-of-the?s=r"
-                    className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
+                    href="https://itcraftapps.com/blog/why-is-machine-learning-a-growing-trend/"
+                    className="w-[360px] h-44 md:w-[310px] md:h-36 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
                   >
                     <StaticImage
-                      src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5f0f9bde-78ee-4d68-ad3e-587596cfa049_2048x1365.webp"
+                      src="https://itcraftapps.com/wp-content/uploads/2020/04/Machine-learning.jpg.webp"
                       alt="Dorsey"
                       className="w-11/12  bg-contain bg-center"
                     />
@@ -74,19 +93,19 @@ const Inspiration = ({ className }) => {
               {/*Card-3 */}
               <div className="items-center">
                 <Link
-                  href="https://www.linkedin.com/pulse/10-lessons-from-howard-marks-oaktree-capital-thomas-chua/?trk=articles_directory"
-                  className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
+                  href="https://www.matellio.com/blog/7-ways-ai-and-ml-are-transforming-fintech-industry/"
+                  className="w-[360px] h-44 md:w-[310px] md:h-36 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
                 >
                   <StaticImage
-                    src="https://media-exp1.licdn.com/dms/image/C5612AQFaJBM_VTgnUA/article-cover_image-shrink_720_1280/0/1642209920066?e=1660176000&v=beta&t=YBjy-SiM6-71P8W-8znzWgWg3pZL8pXQEtiKV4Ipcec"
-                    alt="Peterson"
+                    src="https://www.matellio.com/blog/wp-content/uploads/2021/04/5-Ways-AI-and-ML-are-transforming-Fintech-Industry-2-1.jpg"
+                    alt="article-2"
                     className="w-11/12  bg-contain bg-center"
                   />
                 </Link>
                 {/*Card-4 */}
                 <Link
                   href="https://www.linkedin.com/pulse/what-web3-why-does-matter-ritesh-chopra/"
-                  className="w-[360px] h-44 md:w-[424px] md:h-52 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
+                  className="w-[360px] h-44 md:w-[310px] md:h-36 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
                 >
                   <StaticImage
                     src="https://media-exp1.licdn.com/dms/image/C5612AQHdM590nM5SxA/article-cover_image-shrink_720_1280/0/1639338049895?e=1660176000&v=beta&t=bLke3RpFvI5k8zYnr_58dQtAMb3ytj3ZzsS40OHtL90"
