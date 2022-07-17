@@ -52,13 +52,13 @@ const Journey = () => {
                   <p className="mb-4">
                     Landing finance position, all I learned in college begins
                     shining. In financial accounting team, I helped two CPAs to
-                    prepare financial statement, plan budget, and help
-                    management make smarter decision. As the business grows
-                    fast, the team I work with also participate in several
-                    projects for new businesses and company acquisition. My team
-                    is to break down the costs and expenses, measure future cash
-                    flow projections, and estimate an acceptable rate of return
-                    for acquisition.
+                    prepare financial statements, budgeting, and help management
+                    make smarter decision. As the business grows fast, the team
+                    I work with participate in several projects for new
+                    businesses and company acquisition. My team analyzes the
+                    predicted profit and cost, measuring future cash flow
+                    projections, and estimate an acceptable rate of return for
+                    acquisition.
                   </p>
 
                   <p className="mb-4">
@@ -157,7 +157,8 @@ const Journey = () => {
                 </p>
                 <p className="mb-4">It's honor to shout out "I'm a Triton!"</p>
                 <p className="mb-4">
-                  Challenging, It was definitely challenging, but so motivating.
+                  Challenging, It was definitely challenging, but also
+                  motivating.
                 </p>
                 <p className="mb-4">
                   UC San Diego presented a variety of exciting, engaging, and
@@ -206,12 +207,20 @@ const Journey = () => {
                 Los Angeles, CA
               </div>
               <div className="mt-2 text-slate-500 font-roboto text-[15px] font-light">
-                I'm so excited to add programming skills to my toolbox. It was a
-                great place to start to learn to code. There are lots of fun
-                stuff to learn in web application development. I enjoyed every
-                corner, and I keep expanding skills and knowledge. I feel like
-                bootcamp is the place to start, not the place to land. After
-                finishing
+                <p className="mb-4">
+                  I'm so excited to add programming skills to my toolbox. It was
+                  a great place to start to learn to code. There are lots of fun
+                  stuff to learn in web application development. I enjoyed every
+                  corner, and I keep expanding skills and knowledge.
+                </p>
+                <p>
+                  Taking linear career path is generally accepted as a norm. I
+                  would rather be a problem solver with various tools. In the
+                  Coding Boot Camp, I learned and experienced the lastest IT
+                  skills that are generally used in real world. With these
+                  skills and experiences, I have more insight to see problems
+                  and more approaches to fix problems.
+                </p>
               </div>
             </div>
           </div>

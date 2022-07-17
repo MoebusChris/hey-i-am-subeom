@@ -44,14 +44,19 @@ const Inspiration = ({ className }) => {
               </div>
               {/*component's description */}
               <div className="px-10 md:px-20 font-brandon md:text-xl text-white">
-                <p className="text-center text-base mb-2 lg:text-xl">
-                  Future is coming.
-                </p>
-                <p className="text-center text-base lg:text-xl">
-                  In the current digital era, new technologies are reshaping
-                  economies and societies. I share articles about technological
-                  transformation in finance, which I am inspired.
-                </p>
+                <div className="flex justify-center">
+                  <div>
+                    <p className="text-center text-base mb-8 lg:text-xl w-80 md:w-[640px] lg:w-[960px]">
+                      Industrial revolution has never been rapid. No industry is
+                      immune. Advanced technology adoption will be essential for
+                      upcoming competition of a new order. I share a few
+                      inspiring articles that depict the future industry.
+                    </p>
+                    <p className="text-center text-base font-semibold mb-2 lg:text-xl w-80 md:w-[700px] lg:w-[1000px]">
+                      My articles are coming up soon.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             {/*Card left side here */}
@@ -72,11 +77,11 @@ const Inspiration = ({ className }) => {
 
                   {/*Card-2 */}
                   <Link
-                    href="https://www.mediumenergy.io/p/part-25-the-ultimate-promise-of-the?s=r"
+                    href="https://itcraftapps.com/blog/why-is-machine-learning-a-growing-trend/"
                     className="w-[360px] h-44 md:w-[310px] md:h-36 lg:w-[496px] lg:h-60 flex justify-center mb-8 lg:mb-10 hover:scale-110 duration-200 delay-200"
                   >
                     <StaticImage
-                      src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5f0f9bde-78ee-4d68-ad3e-587596cfa049_2048x1365.webp"
+                      src="https://itcraftapps.com/wp-content/uploads/2020/04/Machine-learning.jpg.webp"
                       alt="Dorsey"
                       className="w-11/12  bg-contain bg-center"
                     />

@@ -34,7 +34,7 @@ const System = ({ className }) => {
         <div className="text-white">
           <div>
             <div>
-              <h2 className="white font-brandon">My system</h2>
+              <h2 className="white font-brandon">My vision</h2>
             </div>
           </div>
           <div>
@@ -43,7 +43,7 @@ const System = ({ className }) => {
               <li>Learn everyday</li>
               <li>Be detail-oriented</li>
               <li>Gain tools as many as you can</li>
-              <li>Work in a team as a whole</li>
+              <li>Work on a team as a whole</li>
               <li>Prioritize your customer needs</li>
               <li>Treat everyone kindly</li>
               <li>Light up in the darkest night</li>

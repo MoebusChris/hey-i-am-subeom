@@ -10,10 +10,13 @@ const Community = () => {
             <h2 className="black font-brandon">My community</h2>
           </div>
           <div className="px-10 font-brandon md:text-xl">
-            <p className="text-center mb-8">
-              It is important to interact with experts in developer communities.
-              I share a few online communities where I learn new materials.
-            </p>
+            <div className="flex justify-center">
+              <p className="text-center text-base mb-8 lg:text-xl w-80 md:w-[640px]">
+                It's important to interact with experts to learn new things. I
+                share a few online communities where I often visit to follow new
+                stuff.
+              </p>
+            </div>
           </div>
         </div>
       </div>
