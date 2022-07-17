@@ -38,7 +38,6 @@ const Footer = () => {
           </div>
         </div>
         {/*icon section*/}
-        {/*icon section*/}
         <div className="flex justify-center">
           <Link href="#" className="w-24 mx-2">
             <img src={facebook} alt="facebook logo" />
