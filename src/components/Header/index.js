@@ -30,7 +30,6 @@ const Header = () => {
 
   return (
     <header>
-      <Nav />
       <div>
         <BackgroundImage
           Tag="section"
