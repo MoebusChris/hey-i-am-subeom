@@ -200,8 +200,9 @@ const Journey = () => {
                 UCLA Coding Bootcamp
               </a>
               <div className="block mt-2 text-base leading-tight font-medium text-lime-700 font-roboto break-normal">
-                Programming certificate Course,
-                <p className="italic">September 2021-March 2022</p>
+                <p className="italic">
+                  Programming certificate, Earned March 2022
+                </p>
               </div>
               <div className="block mt-2 text-base leading-tight font-medium text-slate-600 font-roboto">
                 Los Angeles, CA
