@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import linkedin from "../../images/Linkedin.webp"
 import facebook from "../../images/Facebook-logo.webp"
 import "../../styles/line.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
@@ -26,11 +27,17 @@ const Footer = () => {
           <div className="flex justify-center">
             <p className="text-center text-base text-slate-500 mb-8 lg:text-xl w-80 md:w-[640px] lg:w-[960px]">
               A great way to reach out to me is to follow me on{" "}
-              <a href="#" className="text-blue-500">
-                Facebook
+              <a
+                href="https://github.com/moebuschris/"
+                className="text-blue-500"
+              >
+                Github
               </a>{" "}
               and{" "}
-              <a href="#" className="text-blue-500">
+              <a
+                href="https://www.linkedin.com/in/subeomj/"
+                className="text-blue-500"
+              >
                 LinkedIn
               </a>
               .
@@ -39,11 +46,17 @@ const Footer = () => {
         </div>
         {/*icon section*/}
         <div className="flex justify-center">
-          <Link href="#" className="w-24 mx-2">
-            <img src={facebook} alt="facebook logo" />
+          <Link href="https://github.com/" className="w-24 mx-2">
+            <StaticImage
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="github logo"
+            />
           </Link>
-          <Link href="#" className="w-24 mx-2">
-            <img src={linkedin} alt="linkedin logo" />
+          <Link href="https://www.linkedin.com/" className="w-24 mx-2">
+            <StaticImage
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+              alt="linkedin logo"
+            />
           </Link>
         </div>
       </div>

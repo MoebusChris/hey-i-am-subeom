@@ -47,7 +47,7 @@ const Journey = () => {
                   <p className="mb-4">
                     I joined the HR team after 3 months temporary position. As a
                     HR specialist, I experienced many aspect of business
-                    operation, and
+                    operation and learned how to work on a team well.
                   </p>
                   <p className="mb-4">
                     Landing finance position, all I learned in college begins
@@ -101,8 +101,8 @@ const Journey = () => {
               <div className="mt-2 text-slate-500 font-roboto text-[15px] font-light">
                 <p className="mb-4">
                   Blue Ocean sushi is where I get the 'Rise and Grind'
-                  mentality. The rise and grind is not healthy. At all. But, it
-                  definitely makes you stronger.
+                  mentality. However, experience in Blue Ocean makes me stronger
+                  after all.
                 </p>
                 <p className="mb-4">
                   I had been working and studying in my entire college year.
@@ -200,8 +200,9 @@ const Journey = () => {
                 UCLA Coding Bootcamp
               </a>
               <div className="block mt-2 text-base leading-tight font-medium text-lime-700 font-roboto break-normal">
-                Programming certificate Course,
-                <p className="italic">September 2021-March 2022</p>
+                <p className="italic">
+                  Programming certificate, Earned March 2022
+                </p>
               </div>
               <div className="block mt-2 text-base leading-tight font-medium text-slate-600 font-roboto">
                 Los Angeles, CA
