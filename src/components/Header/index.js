@@ -14,7 +14,7 @@ const Header = () => {
   const { placeholderImage } = useStaticQuery(
     graphql`
       {
-        placeholderImage: file(relativePath: { eq: "hero-image.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "hero-image.jpeg" }) {
           childImageSharp {
             gatsbyImageData(placeholder: NONE, formats: AUTO)
             fixed(quality: 90, height: 1200) {
